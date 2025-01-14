@@ -1,0 +1,13 @@
+{
+  "name": "Hip API",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "Nodejs",
+    "express"
+  ],
+  "website": "https://hipanime.ct.ws",
+  "repository": "https://github.com/-api",
+  "logo": "https://cdnzia.pages.dev/favicon.ico",
+  "success_url": "/welcome"
+
+}
