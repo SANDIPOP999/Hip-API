@@ -12,14 +12,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Navigate to repo
-        run: cd $GITHUB_WORKSPACE
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
       - name: Install Dependencies
         run: npm install
+
       - name: Install cheerio
-        run: npm install --save npm install cheerio
+        run: npm install cheerio
+
       - name: Install crypto-js
-        run: npm install --save npm install crypto-js
+        run: npm install crypto-js
+
+      - name: Debug Wrangler Action
+        run: |
+          npx wrangler whoami
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
