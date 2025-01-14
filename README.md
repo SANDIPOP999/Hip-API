@@ -28,7 +28,7 @@ Run the following command to clone the repository, and install the dependencies:
 
 ```sh
 git clone https://github.com/MISSINGPVTLTD/Hip-api.git
-cd Hip-API6
+cd Hip-API
 npm install #or yarn install
 ``'
 
