@@ -24,8 +24,11 @@ jobs:
       - name: Install cheerio
         run: npm install cheerio
 
-      - name: Install crypto-js
-        run: npm install crypto-js
+      - name: Set Start Command
+        run: echo '{"scripts": {"start": "node lib/api.js"}}' > package.json
+
+      - name: Build Worker
+        run: npm run build
 
       - name: Debug Wrangler Action
         run: |
@@ -34,8 +37,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
-      - name: Build & Deploy Worker
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+      - name: Deploy Worker
+        run: npx wrangler deploy dist/index.js
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
