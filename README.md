@@ -7,10 +7,10 @@
 # Hip-API: HipAnime
 
 <p align="center">
-    <a href="https://discord.gg/43pgyxBDP">
+    <a href="https://discord.gg/">
       <img src="https://img.shields.io/discord/987492554486452315?color=7289da&label=discord&logo=discord&logoColor=7289da" alt="Discord">
     </a>
-    <a href="https://telegram.me/animezis">
+    <a href="https://telegram.me/">
     <img src="https://img.shields.io/badge/--blue?style=flat-square&logo=telegram&logoColor=white&link=https://www.telegram.me/" alt="GitHub">
   </a>
 </p>
@@ -27,10 +27,10 @@
 Run the following command to clone the repository, and install the dependencies:
 
 ```sh
-git clone https://github.com/warlordsnet/zia-api.git
-cd zia-api
+git clone https://github.com/MISSINGPVTLTD/Hip-api.git
+cd Hip-API6
 npm install #or yarn install
-```
+``'
 
 start the server with the following command:
 
