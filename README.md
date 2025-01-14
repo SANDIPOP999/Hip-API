@@ -27,7 +27,7 @@
 Run the following command to clone the repository, and install the dependencies:
 
 ```sh
-git clone https://github.com/MISSINGPVTLTD/Hip-api.git
+git clone https://github.com/MISSINGPVTLTD/Hip-api
 cd Hip-API
 npm install #or yarn install
 ``'
@@ -44,25 +44,25 @@ Now the server is running on http://localhost:3000
 ### Heroku
 Host your own instance of the api on heroku using the button below.
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/warlordsnet/zia-api/tree/main)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MISSINGPVTLTD/Hip-API/tree/main)
 
 ### Render
 Host your own instance of the api on render using the button below.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/warlordsnet/zia-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MISSINGPVTLTD/Hip-API)
 
 ### Railway
 Host your own instance of the api on railway using the button below.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/aFtc7p?referralCode=HTSy4c)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/aFtc7p?referralCode=)
 
 ### Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/warlordsnet/zia-api)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MISSINGPVTLTD/Hip-API)
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/warlordsnet/zia-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MISSINGPVTLTD/Hip-API)
 
 ### Cyclic
 
