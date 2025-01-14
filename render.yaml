@@ -1,7 +1,7 @@
 services:
   - type: web
     name: webdis
-    repo: https://github.com/warlordsnet/zia-api.git
+    repo: https://github.com/SANDIPOP999/Hip-API
     plan: free
     branch: main
     runtime: node  # specify the correct runtime here
