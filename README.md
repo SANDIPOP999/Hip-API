@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://hipanime.ct.ws">
-    <img alt="Hipane website" src="https://cdnzia.pages.dev/images/logo.webp" width="150">
+    <img alt="Hipane website" src="https://cdn-hipanime.vercel.app/images/logo.webp" width="150">
   </a>
 </p>
 
